@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(238, 238, 130);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: lightsalmon;
+    color: black;
+    width: 700px;
+    height: auto;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+.menu {
+    padding: 5px 5px 5px 15px;
+}
+
+ul { 
+    padding-bottom: 5px;
+}
+
+.menu {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+img { 
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 600px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: lightseagreen;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
