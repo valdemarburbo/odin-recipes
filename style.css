@@ -1,0 +1,27 @@
+body {
+    background-color: palegoldenrod;
+    color: rgba(161, 28, 28, 0.925);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    border-style: solid;
+}
+
+button {
+    background-color: rgba(161, 28, 28, 0.925);
+    color:  palegoldenrod;
+    border-style: solid;
+    font-size: 20px;
+}
+
+a {
+    color: rgba(161, 28, 28, 0.925);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.back-button { 
+    color:  palegoldenrod;
+}
