@@ -1,10 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: palegoldenrod;
     color: rgba(161, 28, 28, 0.925);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
 }
 
-img {
+img,
+div {
+    width: 500px;
+    height: auto;
     border: 5px solid;
     border-radius: 5px;
 }
@@ -21,9 +29,20 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
-    display: inline-block;
+    display: block;
+    margin: 10px;
+}
+
+a:hover {
+    color: orangered;
 }
 
 .back-button { 
     color:  palegoldenrod;
+}
+
+div {
+    background-color: rgb(255, 134, 134);
+    margin: 20px auto;
+    padding: 20px;
 }
