@@ -5,7 +5,8 @@ body {
 }
 
 img {
-    border-style: solid;
+    border: 5px solid;
+    border-radius: 5px;
 }
 
 button {
@@ -20,6 +21,7 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
+    display: inline-block;
 }
 
 .back-button { 
